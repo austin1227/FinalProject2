@@ -1,0 +1,132 @@
+html {
+  box-sizing: border-box;
+  font-family: helvetica; san-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+      max-width: 100%;
+}
+
+p {
+    max-width: 600px;
+    font-family: "nimbus-sans", sans-serif;
+}
+
+
+.page-header {
+    background-color: #fff;
+    color: #006999;
+    margin: 0;
+    padding: 40px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+
+    text-align:center;
+}
+
+li {
+display:inline;
+padding: 20px;
+}
+
+footer li  {
+display: block;
+padding: 20px;
+}
+
+body {
+  background-color: #fff;
+  font-family: "nimbus-sans", sans-serif;
+  font-weight: 400;
+}
+
+.main {
+  position: relative;
+
+}
+
+.casestudies {
+  position: relative;
+  background-color: #caecf2;
+  height: auto;
+  padding: 20px;
+
+}
+
+.whatwedo {
+  position: relative;
+  color: #000;
+  height: auto;
+}
+
+.whatwedo li {
+  display: block;
+  padding: 20px;
+}
+
+.whatwedo h1 {
+  color: #000;
+
+}
+
+
+
+.testimonial {
+  position: relative;
+}
+
+
+
+.image {
+  display: block;
+  position: relative;
+  z-index: -10;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #fff;
+}
+
+
+h1 {
+    font-family: "nimbus-sans", sans-serif;
+    font-size: 300%;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+
+footer {
+  background-color: #242424;
+  color: #fff;
+  margin: 0;
+  min-height: 100px;
+  padding: 40px;
+  height: auto;
+  flex: auto;
+
+}
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    color: gray;
+}
