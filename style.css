@@ -8,22 +8,83 @@ html {
 }
 
 img {
-      max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.main img  {
+  width: 100%;
+  height: auto;
+  filter:brightness(70%);
+  padding: 0;
+  margin: 0;
+}
+
+.whatwedo img  {
+  width: 100%;
+  background-color: #fff;
+  filter:brightness(100%);
+
+}
+
+.main p  {
+    font-family: "nimbus-sans", sans-serif;
+    max-width: 500px;
+    font-size: 1em;
+    color: #fff;
+    padding: 1em;
 }
 
 p {
-    max-width: 600px;
     font-family: "nimbus-sans", sans-serif;
+    max-width: 600px;
+    font-size: 1em;
+    color: #242424;
 }
 
+.testimonial p  {
+    font-family: "nimbus-sans", sans-serif;
+    max-width: 500px;
+    font-size: 1em;
+    color: #fff;
+    padding: 1em;
+}
 
+.flex-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+
+}
+
+.flex-container3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-child{
+  white-space: nowrap;
+}
 .page-header {
     background-color: #fff;
-    color: #006999;
+    color: #242424;
     margin: 0;
     padding: 40px;
     width: 100%;
 }
+
+.page-header img {
+  width: 50%;
+}
+
 
 ul {
     list-style-type: none;
@@ -31,7 +92,7 @@ ul {
     padding: 20px;
     overflow: hidden;
 
-    text-align:center;
+
 }
 
 li {
@@ -47,11 +108,17 @@ padding: 20px;
 body {
   background-color: #fff;
   font-family: "nimbus-sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
+  margin: 0;
+
+  color: #242424;
 }
 
 .main {
   position: relative;
+  height: auto;
+
+
 
 }
 
@@ -59,7 +126,8 @@ body {
   position: relative;
   background-color: #caecf2;
   height: auto;
-  padding: 20px;
+  margin: 0;
+  padding: 100px 0px 0px 40px;
 
 }
 
@@ -67,6 +135,7 @@ body {
   position: relative;
   color: #000;
   height: auto;
+  overflow: hidden;
 }
 
 .whatwedo li {
@@ -83,6 +152,8 @@ body {
 
 .testimonial {
   position: relative;
+  overflow: hidden;
+
 }
 
 
@@ -96,25 +167,40 @@ body {
 .content {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
   text-align: left;
   color: #fff;
+
 }
 
 
 h1 {
     font-family: "nimbus-sans", sans-serif;
-    font-size: 300%;
+    font-size: 3.25em;
     font-weight: 400;
     color: #fff;
 }
 
 
+.testimonial h1 {
+    font-family: "nimbus-sans", sans-serif;
+    font-size: 3em;
+    font-weight: 300;
+    color: #fff;
+}
+
+.casestudies h1 {
+    font-family: "nimbus-sans", sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    color: #000;
+}
+
 
 footer {
   background-color: #242424;
-  color: #fff;
+  color: gray;
   margin: 0;
   min-height: 100px;
   padding: 40px;
@@ -123,10 +209,104 @@ footer {
 
 }
 
+footer img {
+  width: 50%;
+}
+
+
 a:link {
     color: #fff;
+    text-decoration: none;
 }
 
 a:visited {
     color: gray;
+    text-decoration: none;
+}
+
+footer a:link  {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:visited  {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.main a:link  {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main a:visited  {
+    color: #fff;
+    text-decoration: none;
+}
+
+.testimonial a:link  {
+    color: #fff;
+    text-decoration: none;
+}
+
+.testimonial a:visited  {
+    color: #fff;
+    text-decoration: none;
+}
+
+.testimonial a:hover {
+  text-decoration: underline;
+}
+
+
+.casestudies a:link  {
+    color: #1285c2;
+    text-decoration: none;
+}
+
+.casestudies a:visited  {
+    color: #1285c2;
+    text-decoration: none;
+}
+
+.whatwedo a:link  {
+    color: #242424;
+    text-decoration: none;
+}
+
+.whatwedo a:visited  {
+    color: #242424;
+    text-decoration: none;
+}
+
+.whatwedo a:hover {
+  text-decoration: underline;
+}
+
+.page-header a:hover {
+  text-decoration: underline;
+  text-decoration-color: #1285c2;
+}
+
+.fa-chevron-circle-right {
+  color: #fff;
+  padding: 5px;
+  height: 200%;
+}
+
+.whatwedo .fa-chevron-circle-right {
+  color: #1285c2;
+  padding: 5px;
+  height: 200%;
+}
+
+
+li .subhead {
+  font-size: 2em;
+  color: #242424;
+  font-weight: 400;
 }
